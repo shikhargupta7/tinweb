@@ -1,0 +1,156 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat-bold';
+}
+
+.container-fluid {
+  padding: 5% 10% 7%;
+}
+.para{
+  color: #8f8f8f;
+  font-family: 'Montserrat-dark';
+}
+/* Navigation-Bar */
+
+.navbar {
+  padding:0 0 2rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+/* Download Button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE-IMAGE */
+
+.rotated{
+  margin-left: 100px;
+  transform: rotate(12deg);
+  position: absolute;
+  left: 15%;
+}
+
+/* Features */
+.container{
+  padding:100px;
+  text-align: center;
+}
+#features{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+ .features-icons:hover
+{
+  color: #ff4c68;
+}
+.features-icons{
+  color: #ff7b54;
+  margin-bottom: 1rem;
+}
+
+/* Testimonials-section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ff7b54;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 15%;
+  margin-top: 2rem;
+  border-radius: 100%;
+}
+/* carousel-section */
+.carousel-item{
+  padding: 10% 15%;
+}
+
+/* PRESS_SECTION */
+#press{
+
+  background-color: #ff7b54;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.press-size{
+  width: 15%;
+  margin: 0 1.5rem;
+}
+
+/* Pricing-section */
+#pricing{
+  padding: 100px;
+  background-color: #fff;
+}
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+@media (max-width:1000px)  {
+#title{
+  text-align:center;
+
+}
+  .rotated{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* call to action */
+#cta{
+  background-color: #ff4c68;
+  font-family: Montserrat;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+.footpara{
+  color: #8f8f8f;
+  font-family: 'Montserrat-dark';
+}
+.footer-icons{
+  margin: 1rem 1rem;
+}
+.footer-icons:hover{
+  color: #ff4c68;
+}
